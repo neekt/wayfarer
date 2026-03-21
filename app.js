@@ -94,15 +94,17 @@ controlsDiv.onAdd = function(map) {
         <label>Map:</label>
         <select id="mapSelect">
             <optgroup label="Regions">
-                <option value="calimshan.webp">Calimshan</option>
+                <option value="calimshan-1.webp">Calimshan</option>
+                <option value="calimshan-2.webp">Calimshan (2)</option>
+                <option value="faerun.webp">Faerun</option>
                 <option value="sword-coast.webp" selected>Sword Coast</option>
             </optgroup>
             <optgroup label="Cities">
-                <option value="baldurs-gate.jpg">Baldur's Gate</option>
+                <option value="baldurs-gate.webp">Baldur's Gate</option>
                 <option value="calimport.webp">Calimport</option>
-                <option value="luskan.jpg">Luskan</option>
+                <option value="luskan.webp">Luskan</option>
                 <option value="neverwinter.webp">Neverwinter</option>
-                <option value="silverymoon.jpeg">Silverymoon</option>
+                <option value="silverymoon.wepb">Silverymoon</option>
                 <option value="waterdeep.webp">Waterdeep</option>
             </optgroup>
         </select>
