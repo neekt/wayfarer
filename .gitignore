@@ -1,0 +1,12 @@
+# Local scripts
+launch.sh
+
+# Local backend
+/backend/
+
+# Python caches
+/__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
