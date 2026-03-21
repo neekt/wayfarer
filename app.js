@@ -28,7 +28,7 @@ let calibrationMarkers = [];
 let PIXELS_PER_MILE = 1 / 2.49;
 
 // Map state
-let currentMapImage = 'sword-coast.jpg';
+let currentMapImage = 'sword-coast.webp';
 let mapOverlay = null;
 
 // --- Travel Speeds ---
@@ -95,7 +95,7 @@ controlsDiv.onAdd = function(map) {
         <select id="mapSelect">
             <optgroup label="Regions">
                 <option value="calimshan.webp">Calimshan</option>
-                <option value="sword-coast.jpg" selected>Sword Coast</option>
+                <option value="sword-coast.webp" selected>Sword Coast</option>
             </optgroup>
             <optgroup label="Cities">
                 <option value="baldurs-gate.jpg">Baldur's Gate</option>
