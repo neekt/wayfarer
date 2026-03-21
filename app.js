@@ -52,7 +52,7 @@ const TRAVEL_SPEEDS = {
 
 // --- Map scales (pixels per mile) ---
 const MAP_SCALES = {
-    "sword-coast.jpg": 3.6222,
+    "sword-coast.webp": 3.6222,
     "calimport.webp": 410.1317,
     "neverwinter.webp": 323.5021
 };
