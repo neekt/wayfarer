@@ -595,7 +595,7 @@ function setupClicks(bounds) {
                 infoPopup = L.popup({closeOnClick:true, autoClose:true})
                     .setLatLng([lat, lng])
                     .setContent(`
-                        <b>Travel speed</b> ${travelMode.replace(/([A-Z])/g, ' $1').replace('_', ' ').trim()} (${speed} mph)<br>
+                        <b>Travel speed:</b> ${travelMode.replace(/([A-Z])/g, ' $1').replace('_', ' ').trim()} (${speed} mph)<br>
                         <b>Total Distance:</b> ${totalDistance.toFixed(2)} miles<br>
                         <b>Total Time:</b> ${formatTime(totalTimeMinutes)}
                     `)
